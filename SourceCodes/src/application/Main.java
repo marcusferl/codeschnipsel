@@ -26,7 +26,7 @@ public class Main extends Application {
 			primaryStage.setScene(scene);
 			Image taskIcon = new Image("taskicon.png");
 			primaryStage.getIcons().add(taskIcon);
-			primaryStage.setTitle("Java ExampleCode Collection");
+			primaryStage.setTitle("Java CodeSnippets Collection");
 			
 			
 			

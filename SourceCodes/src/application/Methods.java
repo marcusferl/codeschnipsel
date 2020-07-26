@@ -38,9 +38,9 @@ public class Methods {
 			writeInFile.close();
 			input.clear();
 
-			info.setText("Code gespeichert");
+			info.setText("Code saved");
 		} else if (javaFile.exists()) {
-			info.setText("File wurde editiert!");
+			info.setText("File edited!");
 
 			FileWriter writeInFile = new FileWriter(sourceFolder + input.getText());
 			writeInFile.write(javaCode.getText());
@@ -114,7 +114,7 @@ public class Methods {
 		zipFile(fileToZip, fileToZip.getName(), zipOut);
 		zipOut.close();
 		fos.close();
-		info.setText("Backup erstellt!");
+		info.setText("Backup Done!");
 	}
 
 	private static void zipFile(File fileToZip, String fileName, ZipOutputStream zipOut) throws IOException {
