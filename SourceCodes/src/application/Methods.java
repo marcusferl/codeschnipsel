@@ -173,7 +173,7 @@ public class Methods {
 			System.out.println("Directory created");
 
 		} else {
-			System.out.println("Directory already exists!");
+			System.out.println("Directory already exists! ");
 		}
 	}
 	public void downloadBackupOnStart() throws IOException, Exception {
